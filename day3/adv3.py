@@ -5,8 +5,9 @@ Created on Thu Dec  3 02:18:07 2020
 @author: Bogdan Tudose
 """
 
-fPath = r"C:\Users\bogda\Desktop\Python\Challenge\2020"
-f = open(fPath+"\d3ActualInputs.txt", "r")
+#%% Source files
+fPath = "day3/"
+f = open(fPath+"d3ActualInputs.txt", "r")
 inputsActual = f.read()
 
 #%% Load Data
