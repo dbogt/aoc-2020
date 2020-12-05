@@ -6,7 +6,7 @@ Created on Thu Dec  3 02:18:07 2020
 """
 
 #%% Source files
-fPath = "C:/Users/bogda/Desktop/Python/Challenge/2020/day4/"
+fPath = "day4/"
 f = open(fPath+"d4ActualInputs.txt", "r")
 # f = open(fPath+"d4DemoInputs.txt", "r")
 inputsActual = f.read()
