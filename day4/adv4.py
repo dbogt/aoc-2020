@@ -76,9 +76,8 @@ df3 = df2[((df2['hgt'].str.contains("in")) & (df2['hgt_numeric'].between(59,76,i
 #pid - 9 digit number
 
 valid_ecl = ['amb', 'blu', 'brn', 'gry', 'grn', 'hzl', 'oth']
-df4 = df3[(df3['hcl'].str.contains("^#[0-9a-f]{6}",regex=True)) &
+df4 = df3[(df3['hcl'].str.contains("^#[0-9a-f]{6}$",regex=True)) &
           (df3['ecl'].isin(valid_ecl)) &
-          (df3['pid'].str.contains("^[0-9]{9}",regex=True))&
-          (df3['pid'].str.len() == 9)]
-
+          (df3['pid'].str.contains("^[0-9]{9}$",regex=True))]
+          
 print("Total Valid",df4.shape[0])
