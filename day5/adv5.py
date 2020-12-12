@@ -5,7 +5,7 @@ Created on Sat Dec  5 01:15:01 2020
 @author: Bogdan Tudose
 """
 #%% Source files
-fPath = "day5/"
+fPath = "../aoc-2020-Src/"
 # f = open(fPath+"d5DemoInputs.txt", "r")
 f = open(fPath+"d5ActualInputs.txt", "r")
 

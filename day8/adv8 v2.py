@@ -8,7 +8,7 @@ Created on Mon Dec  7 08:49:17 2020
 import pandas as pd
 
 #%% Source files
-fPath = "day8/"
+fPath = "../aoc-2020-Src/"
 # f = open(fPath+"d8DemoInputs.txt", "r")
 f = open(fPath+"d8ActualInputs.txt", "r")
 inputs = f.read()

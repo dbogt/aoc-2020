@@ -6,7 +6,7 @@ Created on Thu Dec  3 02:18:07 2020
 """
 
 #%% Source files
-fPath = "day3/"
+fPath = "../aoc-2020-Src/"
 f = open(fPath+"d3ActualInputs.txt", "r")
 inputsActual = f.read()
 

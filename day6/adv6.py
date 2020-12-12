@@ -5,7 +5,7 @@ Created on Sun Dec  6 00:08:29 2020
 @author: Bogdan Tudose
 """
 #%% Source files
-fPath = "day6/"
+fPath = "../aoc-2020-Src/"
 # f = open(fPath+"d6DemoInputs.txt", "r")
 f = open(fPath+"d6ActualInputs.txt", "r")
 inputs = f.read()

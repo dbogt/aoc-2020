@@ -8,7 +8,7 @@ Created on Mon Dec  7 08:49:17 2020
 import numpy as np
 
 #%% Source files
-fPath = "day7/"
+fPath = "../aoc-2020-Src/"
 # f = open(fPath+"d7DemoInputs.txt", "r")
 f = open(fPath+"d7ActualInputs.txt", "r")
 inputs = f.read()

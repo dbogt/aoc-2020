@@ -6,7 +6,7 @@ Created on Tue Dec  1 16:24:01 2020
 """
 
 #%% Source files
-fPath = "day1/"
+fPath = "../aoc-2020-Src/"
 f = open(fPath+"d1ActualInputs.txt", "r")
 inputs = f.read()
 #%% Part 1
