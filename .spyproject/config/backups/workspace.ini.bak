@@ -6,5 +6,5 @@ save_non_project_files = False
 
 [main]
 version = 0.2.0
-recent_files = ['..\\..\\..\\.spyder-py3\\temp.py', 'day10\\adv9.py', 'day10\\adv10.py', 'day11\\adv11 v2.py', '..\\..\\..\\Desktop\\Teaching 2020\\2020.12.02 - CFA Vancouver - Python 3\\Python 3 Project\\Lessons\\streamlitExample.py', '..\\..\\..\\Desktop\\Teaching 2020\\2020.12.02 - CFA Vancouver - Python 3\\Python 3 Project\\Lessons\\streamlitComponents.py', '..\\..\\..\\Desktop\\Teaching 2020\\2020.12.02 - CFA Vancouver - Python 3\\Python 3 Project\\Lessons\\dash_app.py', '..\\..\\..\\Desktop\\Python\\DEMOS\\investorline.py']
+recent_files = ['..\\azee\\azee phase 2.py', 'day13\\advd13.py', 'day12\\advd12.py']
 
