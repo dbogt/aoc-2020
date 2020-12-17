@@ -16,8 +16,9 @@ lines = [x for x in inputs.strip("\n").split("\n")]
 #%% Creating Data
 splits = inputs.split("nearby tickets:\n")
 nearbyLines = [x for x in splits[1].split("\n")]
-
+nearbyTickets2 = [ x for x in splits[1].split("\n") ]
 nearbyTickets = [x.split(",") for x in nearbyLines]
+
 nearbyValid = {}
 rulesText = splits[0].split("your ticket:")[0]
 rules = [x for x in rulesText.strip("\n").split("\n")]
