@@ -9,8 +9,8 @@ import itertools
 
 #%% Source files
 fPath = "../aoc-2020-Src/"
-# f = open(fPath+"d17DemoInputs.txt", "r")
-f = open(fPath+"d17ActualInputs.txt", "r")
+f = open(fPath+"d17DemoInputs.txt", "r")
+# f = open(fPath+"d17ActualInputs.txt", "r")
 inputs = f.read()
 lines = [x for x in inputs.strip("\n").split("\n")]
 
@@ -44,7 +44,7 @@ def countActiveNeighbours(cube):
     
     
 #%% Part 1
-for cycle in range(6):
+for cycle in range(1):
      activeNeighbours = {}
      nextMap = mapCubes.copy()
      allNeighbours = []
